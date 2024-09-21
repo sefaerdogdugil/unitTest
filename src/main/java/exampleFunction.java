@@ -14,6 +14,12 @@ public Object addition (int a, int b, int c) {
             System.out.println("Çarpma İslemi Sonucu ="+multi);
             return multi;
         }
+    public int division(int a, int b) throws IllegalArgumentException {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero is not allowed.");
+        }
+        return a / b;
+    }
 
 }
 
