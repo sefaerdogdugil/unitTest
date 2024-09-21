@@ -16,7 +16,7 @@ public Object addition (int a, int b, int c) {
         }
     public int division(int a, int b) throws IllegalArgumentException {
         if (b == 0) {
-            throw new IllegalArgumentException("Division by zero is not allowed.");
+            throw new IllegalArgumentException("Sıfıra bölme tanımlanamaz.");
         }
         return a / b;
     }
