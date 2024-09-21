@@ -20,6 +20,10 @@ public Object addition (int a, int b, int c) {
         }
         return a / b;
     }
+    public String getMyname(){
+        return "Sefa Erdoğdugil";
+
+    }
 
 }
 

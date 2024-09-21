@@ -40,4 +40,10 @@ public class unitTest {
     public void testDivisionWithNegativeNumbers() {
         Assert.assertEquals(unitTest.division(-10, 5), -2, "Negatif sayılarla bölme işlemi başarısız.");
     }
+    @Test
+    public void getMyname(){
+        String expected = "Sefa Erdoğdugil";
+        String result = unitTest.getMyname();
+        Assert.assertEquals(expected, result,"İsim uyuşmadı");
+    }
 }
